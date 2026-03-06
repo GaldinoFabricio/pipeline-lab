@@ -7,7 +7,7 @@ export default defineConfig(
   tseslint.configs.strict,
   tseslint.configs.stylistic,
   {
-    ignore: [
+    ignores: [
       "node_modules/**",
       "dist/**",
       "build/**",
